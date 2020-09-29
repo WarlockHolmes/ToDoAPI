@@ -15,9 +15,20 @@
   </head>
   <body>
     <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <h1>To Do:</h1>
+      <div class="row justify-content-center">
+        <div class="my-5" id="list">
+          <h1 class="text-center">To Do:</h1>
+          <div class="row justify-content-center">
+            <ul class="list-group my-3">
+              <li class="list-group-item" id="todo1">Item 1</li>
+              <li class="list-group-item" id="todo2">Item 2</li>
+              <li class="list-group-item" id="todo3">Item 3</li>
+            </ul>
+          </div>
+          <form class="mx-auto mb-3" id="add-item">
+            <input type="text"/>
+            <button class="btn btn-primary">Add To Do</button>
+          </form>
         </div>
       </div>
     </div>
