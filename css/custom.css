@@ -7,3 +7,19 @@
 ul, input {
   width: 75%;
 }
+
+#foot {
+  margin-bottom: -24px;
+}
+
+#foot div:last-child p {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+#foot div:last-child p:hover {
+  color: rgba(0, 0, 0, 1);
+}
+
+button {
+  margin-left: 2px;
+}

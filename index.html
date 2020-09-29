@@ -19,11 +19,22 @@
         <div class="my-5" id="list">
           <h1 class="text-center">To Do:</h1>
           <div class="row justify-content-center">
-            <ul class="list-group my-3">
+            <ul class="list-group my-3" id="active">
+
+            </ul>
+            <ul class="list-group my-3 d-none" id="complete">
 
             </ul>
           </div>
-          <input class="d-block mx-auto mb-3" type="text" placeholder="Press 'Enter' to add new list item..."/>
+          <input class="d-block mx-auto mb-3" type="text" placeholder="Press 'Enter' to add new task..."/>
+          <div class="w-100 row ml-3" id="foot">
+            <div class="col-6">
+              <p class="mb-0 d-inline-block">Total <span>active</span> tasks:</p><p class="d-inline" id="total"></p>
+            </div>
+            <div class="col-6">
+              <p class="d-inline-block mb-0">View <span>completed</span> tasks...</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
